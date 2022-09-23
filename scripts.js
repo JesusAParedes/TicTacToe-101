@@ -132,7 +132,7 @@ const horizontalWin = () => {
 ||(board[2][0] == "X" && board[2][1] == "X" && board[2][2] == "X") 
 ||(board[2][0] == "O" && board[2][1] == "O" && board[2][2] == "O")
 ) { window.alert(`Player ${currentMarker} won!`)
-} else { changeMarker()
+} else { 
 }
 }
 
@@ -145,15 +145,15 @@ const verticalWin = () => {
 ||(board[0][2] == "X" && board[1][2] == "X" && board[2][2] == "X") 
 ||(board[0][2] == "O" && board[1][2] == "O" && board[2][2] == "O")
 ) { window.alert(`Player ${currentMarker} won!`)
-} else { changeMarker()
-}
+} else { 
+} }
 
 const diagonalWin = () => {
   console.log('hi**')
   // Your code here to check for diagonal wins
   if((board[0][0] == "X" && board[1][1] == "X" && board[2][2] == "X") 
   ||(board[0][2] == "X" && board[1][1] == "X" && board[2][0] == "X"))
-  { window.alert(`Player ${currentMarker} won!`)
-} else { changeMarker()
-}}
+  { window.alert(`Player ${currentMarker} won!`) }
+ else {  }
 }
+
