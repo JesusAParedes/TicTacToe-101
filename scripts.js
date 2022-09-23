@@ -148,11 +148,9 @@ const verticalWin = () => {
 }
 
 const diagonalWin = () => {
-  console.log('hi**')
   // Your code here to check for diagonal wins
   if((board[0][0] == "X" && board[1][1] == "X" && board[2][2] == "X") 
   ||(board[0][2] == "X" && board[1][1] == "X" && board[2][0] == "X"))
   { window.alert(`Player ${currentMarker} won!`) }
- else {  }
+   else {  }
 }
-
